@@ -1,3 +1,5 @@
 .idea/
 out/
-src/ru/
+*.iml
+out/
+target/
