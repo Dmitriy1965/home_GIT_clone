@@ -1,11 +1,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] sales = {100, 300, 200};
+        long[] sales = {100, 300, 200};
         SalesManager salesManager = new SalesManager(sales);
-        int max = salesManager.max();
-        int min = salesManager.min();
-        int stat = salesManager.stat();
+
+        long min = salesManager.min();
+        long stat = salesManager.stat();
+
+        long max = salesManager.max();
 
         System.out.println(max);
         System.out.println(min);
