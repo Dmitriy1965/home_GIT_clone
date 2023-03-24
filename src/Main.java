@@ -6,7 +6,6 @@ public class Main {
 
         long min = salesManager.min();
         long stat = salesManager.stat();
-
         long max = salesManager.max();
 
         System.out.println(max);

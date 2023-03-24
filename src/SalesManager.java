@@ -16,9 +16,9 @@ public class SalesManager {
     }
 
 
-    public int min() {
-        int min = sales[0];
-        for (int sale : sales) {
+    public long min() {
+        long min = sales[0];
+        for (long sale : sales) {
             if (sale < min) {
                 min = sale;
             }
@@ -26,10 +26,9 @@ public class SalesManager {
         return min;
     }
 
-    public int stat() {
-     //   int min = sales[0];
-        int stat = 0;
-        for (int sale : sales) {
+    public long stat() {
+        long stat = 0;
+        for (long sale : sales) {
                 stat = sale + stat;
           }
         stat = (stat - max() - min()) / (sales.length - 2);
